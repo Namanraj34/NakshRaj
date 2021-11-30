@@ -29,20 +29,32 @@
       })
     </script>
 
-    
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel-inner">
-  <div class="carousel-inner" >
-    <div class="carousel-item active">
-      <img src="/a1.jpg" class="d-block w-100" alt="..." height="550px">
-    </div>
-    <div class="carousel-item">
-      <img src="/a2.jpg" class="d-block w-100" alt="" height="550px">
-    </div>
-    <div class="carousel-item">
-      <img src="/a8.jpg" class="d-block w-100" alt="..."height="550px">
-    </div>
-  </div>
-</div>
+    <!-- <nav class="navbar navbar-light bg-dark">
+      <div class="container"  class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logoo1.png" alt="" width="150" height="80">
+        </a>
+      </div>
+    </nav> -->
+    <!-- <nav id="navbar">
+        <div id="logo"> -->
+            <!-- <h1>Systematic Solutions</h1> -->
+            <!-- <img src="/img/logoo1.png" alt="" width="250px">
+        </div>
+      </nav> -->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/a1.jpg" class="d-block w-100" alt="..." height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="/a2.jpg" class="d-block w-100" alt="..." height="600px">
+          </div>
+          <div class="carousel-item">
+            <img src="/a8.jpg" class="d-block w-100" alt="..." height="600px">
+          </div>
+        </div>
+      </div>
       
         <div class="heado my-4">
             <h2>About us</h2>
@@ -148,7 +160,7 @@
         <img src="prog.png" class="card-img-bottom" alt="...">
       </div>
       <div class="card">
-        <img src="web.jpg" class="card-img-top" alt="...">
+        <img src="front.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">What is front-end vs back-end?</h5>
           <p class="text-black" style="font-weight: bold;">What is front-end vs back-end?
@@ -178,7 +190,7 @@
       <div class="container5">
         <div class="sec aboutus">
           <h2>About Us</h2>
-          <img src="logoo.png" alt="">
+          <img src="/img/logoo.png" alt="">
           <p>Synergy between technology, design and expert marketing techniques creates additional value for your business. All three aspects enhance the power of the others, and this synergy is what makes Vision Tech Team different from any other company.
           </p>
           <ul class="sci">
@@ -258,27 +270,44 @@
     <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
     <div class="wrapper">
        <ul>
-        <li><a href="/index.html">ABOUT</a></li>
-            <li><a href="/index.html">FAQ</a></li>
-            <li><a href="/index.html">Privacy policy</a></li>
-            <li><a href="/index.html">Help</a></li>
-            <li><a href="/index.html">Terms & Conditions</a></li>
-            <li><a href="/index.html">Contact</a></li>
+        <li><a href="/namanraj34.github.io/">ABOUT</a></li>
+            <li><a href="/namanraj34.github.io/">FAQ</a></li>
+            <li><a href="/namanraj34.github.io/">Privacy policy</a></li>
+            <li><a href="/namanraj34.github.io/">Help</a></li>
+            <li><a href="/namanraj34.github.io/">Terms & Conditions</a></li>
+            <li><a href="/namanraj34.github.io/">Contact</a></li>
        </ul>
     </div>
     </div>
   <!--footer section ends -->
-  <!-- <section  class="container6">
-    <p class="float-end"><a href="/index.html"><i class="fas fa-upload"></i></a>
-    <p>Copyright ©2021 All rights reserved | This template is made with <a href="contact.html">Privacy</a> · <a href="technology.html">Terms</a></p>
+  <section  class="container6">
+    <p class="float-end">
+    <p>Copyright ©2021 All rights reserved | This template is made with <a href="namanraj34.github.io/">Privacy</a> · <a href="namanraj34.github.io/">Terms</a></p>
 </section>
 
-<a href="#"><i class="fas fa-upload"></i></a> -->
+
 
 
   <button id="btnScrollToTop">
-    <a href="/namanraj34.github.io/"><i class="far fa-hand-paper"></i></a>
+    <a href="namanraj34.github.io/"><i class="far fa-hand-paper"></i></a>
   </button>
+
+  <script>
+    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+    btnScrollToTop.addEventListener("click", function(){
+        // window.scrollTo(0,0);
+
+        // window.scrollTo({
+        //      top:50,
+        //      left: 0,
+        //      behavior : "smooth"
+        // });
+
+        $("html, body").animate({ scrollTop: 0}, "slow");
+    });
+  </script>
+
     
     <!-- Optional JavaScript; choose one of the two! -->
 
